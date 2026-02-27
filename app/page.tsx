@@ -73,9 +73,8 @@ export default function Home() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="space-y-4">
-              <Badge className="w-fit bg-primary/10 text-primary hover:bg-primary/20">
-                <Zap className="w-3 h-3 mr-2" />
-                AI-Powered Fraud Detection
+              <Badge className="">
+                <Zap className="" />
               </Badge>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
                 Real-time <span className="text-primary">Fraud Protection</span>{" "}
